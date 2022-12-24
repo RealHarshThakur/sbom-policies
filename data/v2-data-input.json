@@ -1,0 +1,4051 @@
+{
+    "input": {
+ "matches": [
+  {
+   "vulnerability": {
+    "id": "CVE-2009-5155",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2009-5155",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2009-5155"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2009-5155",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2009-5155",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://sourceware.org/git/gitweb.cgi?p=glibc.git;h=eb04c21373e2a2885f3d52ff192b0499afe3c672",
+      "https://sourceware.org/bugzilla/show_bug.cgi?id=18986",
+      "https://sourceware.org/bugzilla/show_bug.cgi?id=11053",
+      "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=34238",
+      "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=32806",
+      "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=22793",
+      "http://git.savannah.gnu.org/cgit/gnulib.git/commit/?id=5513b40999149090987a0341c018d05d3eea1272",
+      "https://security.netapp.com/advisory/ntap-20190315-0002/",
+      "https://support.f5.com/csp/article/K64119434",
+      "https://support.f5.com/csp/article/K64119434?utm_source=f5support&amp;utm_medium=RSS",
+      "https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4@%3Cissues.bookkeeper.apache.org%3E",
+      "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b@%3Cissues.bookkeeper.apache.org%3E"
+     ],
+     "description": "In the GNU C Library (aka glibc or libc6) before 2.28, parse_reg_exp in posix/regcomp.c misparses alternatives, which allows attackers to cause a denial of service (assertion failure and application exit) or trigger an incorrect result by attempting a regular-expression match.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 5,
+        "exploitabilityScore": 10,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.0",
+       "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "glibc",
+       "version": "2.27-3ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2009-5155"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libc-bin",
+    "version": "2.27-3ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only",
+     "LGPL-2.1-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libc-bin:libc-bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc-bin:libc_bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc_bin:libc-bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc_bin:libc_bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc:libc-bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc:libc_bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libc-bin@2.27-3ubuntu1.6?arch=amd64&upstream=glibc&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "glibc"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2009-5155",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2009-5155",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2009-5155"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2009-5155",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2009-5155",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://sourceware.org/git/gitweb.cgi?p=glibc.git;h=eb04c21373e2a2885f3d52ff192b0499afe3c672",
+      "https://sourceware.org/bugzilla/show_bug.cgi?id=18986",
+      "https://sourceware.org/bugzilla/show_bug.cgi?id=11053",
+      "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=34238",
+      "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=32806",
+      "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=22793",
+      "http://git.savannah.gnu.org/cgit/gnulib.git/commit/?id=5513b40999149090987a0341c018d05d3eea1272",
+      "https://security.netapp.com/advisory/ntap-20190315-0002/",
+      "https://support.f5.com/csp/article/K64119434",
+      "https://support.f5.com/csp/article/K64119434?utm_source=f5support&amp;utm_medium=RSS",
+      "https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4@%3Cissues.bookkeeper.apache.org%3E",
+      "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b@%3Cissues.bookkeeper.apache.org%3E"
+     ],
+     "description": "In the GNU C Library (aka glibc or libc6) before 2.28, parse_reg_exp in posix/regcomp.c misparses alternatives, which allows attackers to cause a denial of service (assertion failure and application exit) or trigger an incorrect result by attempting a regular-expression match.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 5,
+        "exploitabilityScore": 10,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.0",
+       "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "glibc",
+       "version": "2.27-3ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2009-5155"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libc6",
+    "version": "2.27-3ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only",
+     "LGPL-2.1-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libc6:libc6:2.27-3ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libc6@2.27-3ubuntu1.6?arch=amd64&upstream=glibc&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "glibc"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2009-5155",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2009-5155",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2009-5155"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2009-5155",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2009-5155",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://sourceware.org/git/gitweb.cgi?p=glibc.git;h=eb04c21373e2a2885f3d52ff192b0499afe3c672",
+      "https://sourceware.org/bugzilla/show_bug.cgi?id=18986",
+      "https://sourceware.org/bugzilla/show_bug.cgi?id=11053",
+      "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=34238",
+      "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=32806",
+      "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=22793",
+      "http://git.savannah.gnu.org/cgit/gnulib.git/commit/?id=5513b40999149090987a0341c018d05d3eea1272",
+      "https://security.netapp.com/advisory/ntap-20190315-0002/",
+      "https://support.f5.com/csp/article/K64119434",
+      "https://support.f5.com/csp/article/K64119434?utm_source=f5support&amp;utm_medium=RSS",
+      "https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4@%3Cissues.bookkeeper.apache.org%3E",
+      "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b@%3Cissues.bookkeeper.apache.org%3E"
+     ],
+     "description": "In the GNU C Library (aka glibc or libc6) before 2.28, parse_reg_exp in posix/regcomp.c misparses alternatives, which allows attackers to cause a denial of service (assertion failure and application exit) or trigger an incorrect result by attempting a regular-expression match.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 5,
+        "exploitabilityScore": 10,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.0",
+       "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "glibc",
+       "version": "2.27-3ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2009-5155"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "locales",
+    "version": "2.27-3ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only",
+     "LGPL-2.1-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:locales:locales:2.27-3ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/locales@2.27-3ubuntu1.6?arch=all&upstream=glibc&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "glibc"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2013-4235",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Low",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2013-4235",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2013-4235",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://security-tracker.debian.org/tracker/CVE-2013-4235",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235",
+      "https://access.redhat.com/security/cve/cve-2013-4235",
+      "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E",
+      "https://security.gentoo.org/glsa/202210-26"
+     ],
+     "description": "shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P",
+       "metrics": {
+        "baseScore": 3.3,
+        "exploitabilityScore": 3.4,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+       "metrics": {
+        "baseScore": 4.7,
+        "exploitabilityScore": 1,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "shadow",
+       "version": "1:4.5-1ubuntu2.5"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2013-4235"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "login",
+    "version": "1:4.5-1ubuntu2.5",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:login:login:1:4.5-1ubuntu2.5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/login@1:4.5-1ubuntu2.5?arch=amd64&upstream=shadow&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "shadow"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2013-4235",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Low",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2013-4235",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2013-4235",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://security-tracker.debian.org/tracker/CVE-2013-4235",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235",
+      "https://access.redhat.com/security/cve/cve-2013-4235",
+      "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E",
+      "https://security.gentoo.org/glsa/202210-26"
+     ],
+     "description": "shadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:M/Au:N/C:N/I:P/A:P",
+       "metrics": {
+        "baseScore": 3.3,
+        "exploitabilityScore": 3.4,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+       "metrics": {
+        "baseScore": 4.7,
+        "exploitabilityScore": 1,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "shadow",
+       "version": "1:4.5-1ubuntu2.5"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2013-4235"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "passwd",
+    "version": "1:4.5-1ubuntu2.5",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:passwd:passwd:1:4.5-1ubuntu2.5:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/passwd@1:4.5-1ubuntu2.5?arch=amd64&upstream=shadow&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "shadow"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2015-5237",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2015-5237",
+    "namespace": "nvd:cpe",
+    "severity": "High",
+    "urls": [
+     "https://github.com/google/protobuf/issues/760",
+     "https://bugzilla.redhat.com/show_bug.cgi?id=1256426",
+     "http://www.openwall.com/lists/oss-security/2015/08/27/2",
+     "https://lists.apache.org/thread.html/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442@%3Cdev.drill.apache.org%3E",
+     "https://lists.apache.org/thread.html/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f@%3Cdev.drill.apache.org%3E",
+     "https://lists.apache.org/thread.html/ra28fed69eef3a71e5fe5daea001d0456b05b102044237330ec5c7c82@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E",
+     "https://lists.apache.org/thread.html/r17dc6f394429f6bffb5e4c66555d93c2e9923cbbdc5a93db9a56c1c7@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/r42e47994734cd1980ef3e204a40555336e10cc80096927aca2f37d90@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/re6d04a214424a97ea59c62190d79316edf311a0a6346524dfef3b940@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/r1263fa5b51e4ec3cb8f09ff40e4747428c71198e9bee93349ec96a3c@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/r42ef6acfb0d86a2df0c2390702ecbe97d2104a331560f2790d17ca69@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/rb71dac1d9dd4e8a8ae3dbc033aeae514eda9be1263c1df3b42a530a2@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/r320dc858da88846ba00bb077bcca2cdf75b7dde0f6eb3a3d60dba6a1@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/r85c9a764b573c786224688cc906c27e28343e18f5b33387f94cae90f@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/r02e39d7beb32eebcdbb4b516e95f67d71c90d5d462b26f4078d21eeb@%3Cuser.flink.apache.org%3E",
+     "https://lists.apache.org/thread.html/r02e39d7beb32eebcdbb4b516e95f67d71c90d5d462b26f4078d21eeb@%3Cdev.flink.apache.org%3E",
+     "https://lists.apache.org/thread.html/r5e52caf41dc49df55b4ee80758356fe1ff2a88179ff24c685de7c28d@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/rf7539287c90be979bac94af9aaba34118fbf968864944b4871af48dd@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/r1d274d647b3c2060df9be21eade4ce56d3a59998cf19ac72662dd994@%3Ccommits.pulsar.apache.org%3E",
+     "https://lists.apache.org/thread.html/r4886108206d4c535db9b20c813fe4723d4fe6a91b9278382af8b9d08@%3Cissues.spark.apache.org%3E",
+     "https://lists.apache.org/thread.html/rb40dc9d63a5331bce8e80865b7fa3af9dd31e16555affd697b6f3526@%3Cissues.spark.apache.org%3E",
+     "https://lists.apache.org/thread.html/r5741f4dbdd129dbb9885f5fb170dc1b24a06b9313bedef5e67fded94@%3Cissues.spark.apache.org%3E",
+     "https://lists.apache.org/thread.html/r14fa8d38d5757254f1a2e112270c996711d514de2e3b01c93d397ab4@%3Cissues.spark.apache.org%3E",
+     "https://lists.apache.org/thread.html/r2ea33ce5591a9cb9ed52750b6ab42ab658f529a7028c3166ba93c7d5@%3Ccommon-issues.hadoop.apache.org%3E",
+     "https://lists.apache.org/thread.html/r00d9ab1fc0f1daf14cd4386564dd84f7889404438d81462c86dfa836@%3Ccommon-dev.hadoop.apache.org%3E",
+     "https://lists.apache.org/thread.html/r764fc66435ee4d185d359c28c0887d3e5866d7292a8d5598d9e7cbc4@%3Ccommon-issues.hadoop.apache.org%3E",
+     "https://lists.apache.org/thread.html/r0ca83171c4898dc92b86fa6f484a7be1dc96206765f4d01dce0f1b28@%3Ccommon-issues.hadoop.apache.org%3E",
+     "https://lists.apache.org/thread.html/r00097d0b5b6164ea428554007121d5dc1f88ba2af7b9e977a10572cd@%3Cdev.hbase.apache.org%3E",
+     "https://lists.apache.org/thread.html/rd64381fb8f92d640c1975dc50dcdf1b8512e02a2a7b20292d3565cae@%3Cissues.hbase.apache.org%3E",
+     "https://lists.apache.org/thread.html/r4ef574a5621b0e670a3ce641e9922543e34f22bf4c9ee9584aa67fcf@%3Cissues.hbase.apache.org%3E",
+     "https://lists.apache.org/thread.html/r7fed8dd9bee494094e7011cf3c2ab75bd8754ea314c6734688c42932@%3Ccommon-issues.hadoop.apache.org%3E"
+    ],
+    "description": "protobuf allows remote authenticated attackers to cause a heap-based buffer overflow.",
+    "cvss": [
+     {
+      "version": "2.0",
+      "vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+      "metrics": {
+       "baseScore": 6.5,
+       "exploitabilityScore": 8,
+       "impactScore": 6.4
+      },
+      "vendorMetadata": {}
+     },
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "metrics": {
+       "baseScore": 8.8,
+       "exploitabilityScore": 2.8,
+       "impactScore": 5.9
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:google:protobuf:v1.27.1:*:*:*:*:*:*:*"
+      ]
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2015-5237",
+      "versionConstraint": "<= 3.1.0 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:google:protobuf:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "name": "google.golang.org/protobuf",
+    "version": "v1.27.1",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:google:protobuf:v1.27.1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/google.golang.org/protobuf@v1.27.1",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2015-8985",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2015-8985",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2015-8985",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=779392",
+      "http://www.securityfocus.com/bid/76916",
+      "http://www.openwall.com/lists/oss-security/2017/02/14/9",
+      "https://security.gentoo.org/glsa/201908-06"
+     ],
+     "description": "The pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 4.3,
+        "exploitabilityScore": 8.6,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.9,
+        "exploitabilityScore": 2.2,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "glibc",
+       "version": "2.27-3ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2015-8985"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libc-bin",
+    "version": "2.27-3ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only",
+     "LGPL-2.1-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libc-bin:libc-bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc-bin:libc_bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc_bin:libc-bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc_bin:libc_bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc:libc-bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc:libc_bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libc-bin@2.27-3ubuntu1.6?arch=amd64&upstream=glibc&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "glibc"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2015-8985",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2015-8985",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2015-8985",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=779392",
+      "http://www.securityfocus.com/bid/76916",
+      "http://www.openwall.com/lists/oss-security/2017/02/14/9",
+      "https://security.gentoo.org/glsa/201908-06"
+     ],
+     "description": "The pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 4.3,
+        "exploitabilityScore": 8.6,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.9,
+        "exploitabilityScore": 2.2,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "glibc",
+       "version": "2.27-3ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2015-8985"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libc6",
+    "version": "2.27-3ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only",
+     "LGPL-2.1-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libc6:libc6:2.27-3ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libc6@2.27-3ubuntu1.6?arch=amd64&upstream=glibc&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "glibc"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2015-8985",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-8985"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2015-8985",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2015-8985",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=779392",
+      "http://www.securityfocus.com/bid/76916",
+      "http://www.openwall.com/lists/oss-security/2017/02/14/9",
+      "https://security.gentoo.org/glsa/201908-06"
+     ],
+     "description": "The pop_fail_stack function in the GNU C Library (aka glibc or libc6) allows context-dependent attackers to cause a denial of service (assertion failure and application crash) via vectors related to extended regular expression processing.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 4.3,
+        "exploitabilityScore": 8.6,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.9,
+        "exploitabilityScore": 2.2,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "glibc",
+       "version": "2.27-3ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2015-8985"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "locales",
+    "version": "2.27-3ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only",
+     "LGPL-2.1-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:locales:locales:2.27-3ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/locales@2.27-3ubuntu1.6?arch=all&upstream=glibc&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "glibc"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2016-20013",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-20013",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-20013"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2016-20013",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2016-20013",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://twitter.com/solardiz/status/795601240151457793",
+      "https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/",
+      "https://akkadia.org/drepper/SHA-crypt.txt"
+     ],
+     "description": "sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 5,
+        "exploitabilityScore": 10,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "glibc",
+       "version": "2.27-3ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2016-20013"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libc-bin",
+    "version": "2.27-3ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only",
+     "LGPL-2.1-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libc-bin:libc-bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc-bin:libc_bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc_bin:libc-bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc_bin:libc_bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc:libc-bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*",
+     "cpe:2.3:a:libc:libc_bin:2.27-3ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libc-bin@2.27-3ubuntu1.6?arch=amd64&upstream=glibc&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "glibc"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2016-20013",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-20013",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-20013"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2016-20013",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2016-20013",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://twitter.com/solardiz/status/795601240151457793",
+      "https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/",
+      "https://akkadia.org/drepper/SHA-crypt.txt"
+     ],
+     "description": "sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 5,
+        "exploitabilityScore": 10,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "glibc",
+       "version": "2.27-3ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2016-20013"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libc6",
+    "version": "2.27-3ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only",
+     "LGPL-2.1-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libc6:libc6:2.27-3ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libc6@2.27-3ubuntu1.6?arch=amd64&upstream=glibc&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "glibc"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2016-20013",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-20013",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-20013"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2016-20013",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2016-20013",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://twitter.com/solardiz/status/795601240151457793",
+      "https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/",
+      "https://akkadia.org/drepper/SHA-crypt.txt"
+     ],
+     "description": "sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 5,
+        "exploitabilityScore": 10,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "glibc",
+       "version": "2.27-3ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2016-20013"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "locales",
+    "version": "2.27-3ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-2.0-only",
+     "LGPL-2.1-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:locales:locales:2.27-3ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/locales@2.27-3ubuntu1.6?arch=all&upstream=glibc&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "glibc"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2016-2781",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Low",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2016-2781",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2016-2781",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "http://www.openwall.com/lists/oss-security/2016/02/28/3",
+      "http://www.openwall.com/lists/oss-security/2016/02/28/2",
+      "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+     ],
+     "description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N",
+       "metrics": {
+        "baseScore": 2.1,
+        "exploitabilityScore": 3.9,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.0",
+       "vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N",
+       "metrics": {
+        "baseScore": 6.5,
+        "exploitabilityScore": 2,
+        "impactScore": 4
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "coreutils",
+       "version": "8.28-1ubuntu1"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2016-2781"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "coreutils",
+    "version": "8.28-1ubuntu1",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GPL-3.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:coreutils:coreutils:8.28-1ubuntu1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/coreutils@8.28-1ubuntu1?arch=amd64&distro=ubuntu-18.04",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2017-11164",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2017-11164",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2017-11164",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "http://openwall.com/lists/oss-security/2017/07/11/3",
+      "http://www.securityfocus.com/bid/99575",
+      "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+     ],
+     "description": "In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
+       "metrics": {
+        "baseScore": 7.8,
+        "exploitabilityScore": 10,
+        "impactScore": 6.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.0",
+       "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "pcre3",
+       "version": "2:8.39-9ubuntu0.1"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2017-11164"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libpcre3",
+    "version": "2:8.39-9ubuntu0.1",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libpcre3:libpcre3:2:8.39-9ubuntu0.1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libpcre3@2:8.39-9ubuntu0.1?arch=amd64&upstream=pcre3&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "pcre3"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17594",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17594",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17594",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00017.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the _nc_find_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 4.6,
+        "exploitabilityScore": 3.9,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+       "metrics": {
+        "baseScore": 5.3,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.4
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17594"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libncurses5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libncurses5:libncurses5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libncurses5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17594",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17594",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17594",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00017.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the _nc_find_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 4.6,
+        "exploitabilityScore": 3.9,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+       "metrics": {
+        "baseScore": 5.3,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.4
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17594"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libncursesw5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libncursesw5:libncursesw5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libncursesw5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17594",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17594",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17594",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00017.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the _nc_find_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 4.6,
+        "exploitabilityScore": 3.9,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+       "metrics": {
+        "baseScore": 5.3,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.4
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17594"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libtinfo5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libtinfo5:libtinfo5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libtinfo5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17594",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17594",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17594",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00017.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the _nc_find_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 4.6,
+        "exploitabilityScore": 3.9,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+       "metrics": {
+        "baseScore": 5.3,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.4
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17594"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "ncurses-base",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:ncurses-base:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses-base:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_base:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_base:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/ncurses-base@6.1-1ubuntu1.18.04?arch=all&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17594",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17594"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17594",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17594",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00017.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the _nc_find_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 4.6,
+        "exploitabilityScore": 3.9,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+       "metrics": {
+        "baseScore": 5.3,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.4
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17594"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "ncurses-bin",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:ncurses-bin:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses-bin:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_bin:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_bin:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/ncurses-bin@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17595",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17595",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17595",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00013.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the fmt_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+       "metrics": {
+        "baseScore": 5.4,
+        "exploitabilityScore": 2.8,
+        "impactScore": 2.5
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17595"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libncurses5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libncurses5:libncurses5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libncurses5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17595",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17595",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17595",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00013.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the fmt_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+       "metrics": {
+        "baseScore": 5.4,
+        "exploitabilityScore": 2.8,
+        "impactScore": 2.5
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17595"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libncursesw5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libncursesw5:libncursesw5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libncursesw5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17595",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17595",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17595",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00013.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the fmt_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+       "metrics": {
+        "baseScore": 5.4,
+        "exploitabilityScore": 2.8,
+        "impactScore": 2.5
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17595"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libtinfo5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libtinfo5:libtinfo5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libtinfo5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17595",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17595",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17595",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00013.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the fmt_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+       "metrics": {
+        "baseScore": 5.4,
+        "exploitabilityScore": 2.8,
+        "impactScore": 2.5
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17595"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "ncurses-base",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:ncurses-base:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses-base:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_base:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_base:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/ncurses-base@6.1-1ubuntu1.18.04?arch=all&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2019-17595",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17595"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-17595",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-17595",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00045.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2019-10/msg00013.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00061.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2019-11/msg00059.html",
+      "https://security.gentoo.org/glsa/202101-28"
+     ],
+     "description": "There is a heap-based buffer over-read in the fmt_entry function in tinfo/comp_hash.c in the terminfo library in ncurses before 6.1-20191012.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+       "metrics": {
+        "baseScore": 5.4,
+        "exploitabilityScore": 2.8,
+        "impactScore": 2.5
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2019-17595"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "ncurses-bin",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:ncurses-bin:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses-bin:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_bin:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_bin:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/ncurses-bin@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2020-13844",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13844",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Medium",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13844"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2020-13844",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2020-13844",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability",
+      "https://gcc.gnu.org/pipermail/gcc-patches/2020-June/547520.html",
+      "http://lists.llvm.org/pipermail/llvm-dev/2020-June/142109.html",
+      "https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability/frequently-asked-questions",
+      "https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability/downloads/straight-line-speculation",
+      "http://lists.opensuse.org/opensuse-security-announce/2020-10/msg00040.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2020-10/msg00039.html"
+     ],
+     "description": "Arm Armv8-A core implementations utilizing speculative execution past unconditional changes in control flow may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis, aka \"straight-line speculation.\"",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+       "metrics": {
+        "baseScore": 2.1,
+        "exploitabilityScore": 3.9,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "gcc-8",
+       "version": "8.4.0-1ubuntu1~18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2020-13844"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "gcc-8-base",
+    "version": "8.4.0-1ubuntu1~18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GFDL-1.2-only",
+     "GPL-2.0-only",
+     "GPL-3.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:gcc-8-base:gcc-8-base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:gcc-8-base:gcc_8_base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:gcc_8_base:gcc-8-base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:gcc_8_base:gcc_8_base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:gcc-8:gcc-8-base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:gcc-8:gcc_8_base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:gcc_8:gcc-8-base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:gcc_8:gcc_8_base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:gcc:gcc-8-base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:gcc:gcc_8_base:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/gcc-8-base@8.4.0-1ubuntu1~18.04?arch=amd64&upstream=gcc-8&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "gcc-8"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2020-13844",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13844",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Medium",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13844"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2020-13844",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2020-13844",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability",
+      "https://gcc.gnu.org/pipermail/gcc-patches/2020-June/547520.html",
+      "http://lists.llvm.org/pipermail/llvm-dev/2020-June/142109.html",
+      "https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability/frequently-asked-questions",
+      "https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability/downloads/straight-line-speculation",
+      "http://lists.opensuse.org/opensuse-security-announce/2020-10/msg00040.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2020-10/msg00039.html"
+     ],
+     "description": "Arm Armv8-A core implementations utilizing speculative execution past unconditional changes in control flow may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis, aka \"straight-line speculation.\"",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+       "metrics": {
+        "baseScore": 2.1,
+        "exploitabilityScore": 3.9,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "gcc-8",
+       "version": "8.4.0-1ubuntu1~18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2020-13844"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libgcc1",
+    "version": "1:8.4.0-1ubuntu1~18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GFDL-1.2-only",
+     "GPL-2.0-only",
+     "GPL-3.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libgcc1:libgcc1:1:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libgcc1@1:8.4.0-1ubuntu1~18.04?arch=amd64&upstream=gcc-8%408.4.0-1ubuntu1~18.04&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "gcc-8",
+      "version": "8.4.0-1ubuntu1~18.04"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2020-13844",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13844",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Medium",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13844"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2020-13844",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2020-13844",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability",
+      "https://gcc.gnu.org/pipermail/gcc-patches/2020-June/547520.html",
+      "http://lists.llvm.org/pipermail/llvm-dev/2020-June/142109.html",
+      "https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability/frequently-asked-questions",
+      "https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability/downloads/straight-line-speculation",
+      "http://lists.opensuse.org/opensuse-security-announce/2020-10/msg00040.html",
+      "http://lists.opensuse.org/opensuse-security-announce/2020-10/msg00039.html"
+     ],
+     "description": "Arm Armv8-A core implementations utilizing speculative execution past unconditional changes in control flow may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis, aka \"straight-line speculation.\"",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+       "metrics": {
+        "baseScore": 2.1,
+        "exploitabilityScore": 3.9,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "gcc-8",
+       "version": "8.4.0-1ubuntu1~18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2020-13844"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libstdc++6",
+    "version": "8.4.0-1ubuntu1~18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "GFDL-1.2-only",
+     "GPL-2.0-only",
+     "GPL-3.0-only"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libstdc++6:libstdc++6:8.4.0-1ubuntu1~18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libstdc++6@8.4.0-1ubuntu1~18.04?arch=amd64&upstream=gcc-8&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "gcc-8"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2021-22570",
+    "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2021-22570",
+    "namespace": "nvd:cpe",
+    "severity": "Medium",
+    "urls": [
+     "https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.0",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IFX6KPNOFHYD6L4XES5PCM3QNSKZBOTQ/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3DVUZPALAQ34TQP6KFNLM4IZS6B32XSA/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTRGBRC5KGCA4SK5MUNLPYJRAGXMBIYY/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NVTWVQRB5OCCTMKEQFY5MYED3DXDVSLP/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5PAGL5M2KGYPN3VEQCRJJE6NA7D5YG5X/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KQJB6ZPRLKV6WCMX2PRRRQBFAOXFBK6B/",
+     "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MRWRAXAFR3JR7XCFWTHC2KALSZKWACCE/",
+     "https://www.oracle.com/security-alerts/cpuapr2022.html",
+     "https://security.netapp.com/advisory/ntap-20220429-0005/"
+    ],
+    "description": "Nullptr dereference when a null char is present in a proto symbol. The symbol is parsed incorrectly, leading to an unchecked call into the proto file's name during generation of the resulting error message. Since the symbol is incorrectly parsed, the file is nullptr. We recommend upgrading to version 3.15.0 or greater.",
+    "cvss": [
+     {
+      "version": "2.0",
+      "vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+      "metrics": {
+       "baseScore": 2.1,
+       "exploitabilityScore": 3.9,
+       "impactScore": 2.9
+      },
+      "vendorMetadata": {}
+     },
+     {
+      "version": "3.1",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "metrics": {
+       "baseScore": 5.5,
+       "exploitabilityScore": 1.8,
+       "impactScore": 3.6
+      },
+      "vendorMetadata": {}
+     }
+    ],
+    "fix": {
+     "versions": [],
+     "state": "unknown"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "cpe-match",
+     "matcher": "go-module-matcher",
+     "searchedBy": {
+      "namespace": "nvd:cpe",
+      "cpes": [
+       "cpe:2.3:a:google:protobuf:v1.27.1:*:*:*:*:*:*:*"
+      ]
+     },
+     "found": {
+      "vulnerabilityID": "CVE-2021-22570",
+      "versionConstraint": "< 3.15.0 (unknown)",
+      "cpes": [
+       "cpe:2.3:a:google:protobuf:*:*:*:*:*:*:*:*"
+      ]
+     }
+    }
+   ],
+   "artifact": {
+    "name": "google.golang.org/protobuf",
+    "version": "v1.27.1",
+    "type": "go-module",
+    "locations": [],
+    "language": "go",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:google:protobuf:v1.27.1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:golang/google.golang.org/protobuf@v1.27.1",
+    "upstreams": [],
+    "metadataType": "GolangBinMetadata",
+    "metadata": {
+     "goCompiledVersion": "",
+     "architecture": ""
+    }
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2021-39537",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2021-39537",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2020-08/msg00006.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2021-10/msg00023.html",
+      "http://cvsweb.netbsd.org/bsdweb.cgi/pkgsrc/devel/ncurses/patches/patch-ncurses_tinfo_captoinfo.c?rev=1.1&content-type=text/x-cvsweb-markup",
+      "https://support.apple.com/kb/HT213488",
+      "https://support.apple.com/kb/HT213443",
+      "https://support.apple.com/kb/HT213444",
+      "http://seclists.org/fulldisclosure/2022/Oct/41",
+      "http://seclists.org/fulldisclosure/2022/Oct/28",
+      "http://seclists.org/fulldisclosure/2022/Oct/43",
+      "http://seclists.org/fulldisclosure/2022/Oct/45"
+     ],
+     "description": "An issue was discovered in ncurses through v6.2-1. _nc_captoinfo in captoinfo.c has a heap-based buffer overflow.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 6.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+       "metrics": {
+        "baseScore": 8.8,
+        "exploitabilityScore": 2.8,
+        "impactScore": 5.9
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2021-39537"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libncurses5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libncurses5:libncurses5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libncurses5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2021-39537",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2021-39537",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2020-08/msg00006.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2021-10/msg00023.html",
+      "http://cvsweb.netbsd.org/bsdweb.cgi/pkgsrc/devel/ncurses/patches/patch-ncurses_tinfo_captoinfo.c?rev=1.1&content-type=text/x-cvsweb-markup",
+      "https://support.apple.com/kb/HT213488",
+      "https://support.apple.com/kb/HT213443",
+      "https://support.apple.com/kb/HT213444",
+      "http://seclists.org/fulldisclosure/2022/Oct/41",
+      "http://seclists.org/fulldisclosure/2022/Oct/28",
+      "http://seclists.org/fulldisclosure/2022/Oct/43",
+      "http://seclists.org/fulldisclosure/2022/Oct/45"
+     ],
+     "description": "An issue was discovered in ncurses through v6.2-1. _nc_captoinfo in captoinfo.c has a heap-based buffer overflow.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 6.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+       "metrics": {
+        "baseScore": 8.8,
+        "exploitabilityScore": 2.8,
+        "impactScore": 5.9
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2021-39537"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libncursesw5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libncursesw5:libncursesw5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libncursesw5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2021-39537",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2021-39537",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2020-08/msg00006.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2021-10/msg00023.html",
+      "http://cvsweb.netbsd.org/bsdweb.cgi/pkgsrc/devel/ncurses/patches/patch-ncurses_tinfo_captoinfo.c?rev=1.1&content-type=text/x-cvsweb-markup",
+      "https://support.apple.com/kb/HT213488",
+      "https://support.apple.com/kb/HT213443",
+      "https://support.apple.com/kb/HT213444",
+      "http://seclists.org/fulldisclosure/2022/Oct/41",
+      "http://seclists.org/fulldisclosure/2022/Oct/28",
+      "http://seclists.org/fulldisclosure/2022/Oct/43",
+      "http://seclists.org/fulldisclosure/2022/Oct/45"
+     ],
+     "description": "An issue was discovered in ncurses through v6.2-1. _nc_captoinfo in captoinfo.c has a heap-based buffer overflow.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 6.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+       "metrics": {
+        "baseScore": 8.8,
+        "exploitabilityScore": 2.8,
+        "impactScore": 5.9
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2021-39537"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libtinfo5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libtinfo5:libtinfo5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libtinfo5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2021-39537",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2021-39537",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2020-08/msg00006.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2021-10/msg00023.html",
+      "http://cvsweb.netbsd.org/bsdweb.cgi/pkgsrc/devel/ncurses/patches/patch-ncurses_tinfo_captoinfo.c?rev=1.1&content-type=text/x-cvsweb-markup",
+      "https://support.apple.com/kb/HT213488",
+      "https://support.apple.com/kb/HT213443",
+      "https://support.apple.com/kb/HT213444",
+      "http://seclists.org/fulldisclosure/2022/Oct/41",
+      "http://seclists.org/fulldisclosure/2022/Oct/28",
+      "http://seclists.org/fulldisclosure/2022/Oct/43",
+      "http://seclists.org/fulldisclosure/2022/Oct/45"
+     ],
+     "description": "An issue was discovered in ncurses through v6.2-1. _nc_captoinfo in captoinfo.c has a heap-based buffer overflow.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 6.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+       "metrics": {
+        "baseScore": 8.8,
+        "exploitabilityScore": 2.8,
+        "impactScore": 5.9
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2021-39537"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "ncurses-base",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:ncurses-base:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses-base:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_base:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_base:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/ncurses-base@6.1-1ubuntu1.18.04?arch=all&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2021-39537",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-39537"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2021-39537",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2020-08/msg00006.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2021-10/msg00023.html",
+      "http://cvsweb.netbsd.org/bsdweb.cgi/pkgsrc/devel/ncurses/patches/patch-ncurses_tinfo_captoinfo.c?rev=1.1&content-type=text/x-cvsweb-markup",
+      "https://support.apple.com/kb/HT213488",
+      "https://support.apple.com/kb/HT213443",
+      "https://support.apple.com/kb/HT213444",
+      "http://seclists.org/fulldisclosure/2022/Oct/41",
+      "http://seclists.org/fulldisclosure/2022/Oct/28",
+      "http://seclists.org/fulldisclosure/2022/Oct/43",
+      "http://seclists.org/fulldisclosure/2022/Oct/45"
+     ],
+     "description": "An issue was discovered in ncurses through v6.2-1. _nc_captoinfo in captoinfo.c has a heap-based buffer overflow.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+       "metrics": {
+        "baseScore": 6.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 6.4
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+       "metrics": {
+        "baseScore": 8.8,
+        "exploitabilityScore": 2.8,
+        "impactScore": 5.9
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2021-39537"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "ncurses-bin",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:ncurses-bin:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses-bin:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_bin:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_bin:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/ncurses-bin@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2022-29458",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2022-29458",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00016.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00014.html",
+      "https://support.apple.com/kb/HT213488",
+      "https://lists.debian.org/debian-lts-announce/2022/10/msg00037.html",
+      "http://seclists.org/fulldisclosure/2022/Oct/41"
+     ],
+     "description": "ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.1,
+        "exploitabilityScore": 1.8,
+        "impactScore": 5.2
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2022-29458"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libncurses5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libncurses5:libncurses5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libncurses5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2022-29458",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2022-29458",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00016.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00014.html",
+      "https://support.apple.com/kb/HT213488",
+      "https://lists.debian.org/debian-lts-announce/2022/10/msg00037.html",
+      "http://seclists.org/fulldisclosure/2022/Oct/41"
+     ],
+     "description": "ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.1,
+        "exploitabilityScore": 1.8,
+        "impactScore": 5.2
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2022-29458"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libncursesw5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libncursesw5:libncursesw5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libncursesw5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2022-29458",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2022-29458",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00016.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00014.html",
+      "https://support.apple.com/kb/HT213488",
+      "https://lists.debian.org/debian-lts-announce/2022/10/msg00037.html",
+      "http://seclists.org/fulldisclosure/2022/Oct/41"
+     ],
+     "description": "ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.1,
+        "exploitabilityScore": 1.8,
+        "impactScore": 5.2
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2022-29458"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libtinfo5",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:libtinfo5:libtinfo5:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libtinfo5@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2022-29458",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2022-29458",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00016.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00014.html",
+      "https://support.apple.com/kb/HT213488",
+      "https://lists.debian.org/debian-lts-announce/2022/10/msg00037.html",
+      "http://seclists.org/fulldisclosure/2022/Oct/41"
+     ],
+     "description": "ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.1,
+        "exploitabilityScore": 1.8,
+        "impactScore": 5.2
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2022-29458"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "ncurses-base",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:ncurses-base:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses-base:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_base:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_base:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses-base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses_base:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/ncurses-base@6.1-1ubuntu1.18.04?arch=all&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2022-29458",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Negligible",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-29458"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2022-29458",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00016.html",
+      "https://lists.gnu.org/archive/html/bug-ncurses/2022-04/msg00014.html",
+      "https://support.apple.com/kb/HT213488",
+      "https://lists.debian.org/debian-lts-announce/2022/10/msg00037.html",
+      "http://seclists.org/fulldisclosure/2022/Oct/41"
+     ],
+     "description": "ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+       "metrics": {
+        "baseScore": 5.8,
+        "exploitabilityScore": 8.6,
+        "impactScore": 4.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.1,
+        "exploitabilityScore": 1.8,
+        "impactScore": 5.2
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "ncurses",
+       "version": "6.1-1ubuntu1.18.04"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2022-29458"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "ncurses-bin",
+    "version": "6.1-1ubuntu1.18.04",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:ncurses-bin:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses-bin:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_bin:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses_bin:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses-bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*",
+     "cpe:2.3:a:ncurses:ncurses_bin:6.1-1ubuntu1.18.04:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/ncurses-bin@6.1-1ubuntu1.18.04?arch=amd64&upstream=ncurses&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "ncurses"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2022-3219",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-3219",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Low",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-3219"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "gnupg2",
+       "version": "2.2.4-1ubuntu1.6"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2022-3219"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "gpgv",
+    "version": "2.2.4-1ubuntu1.6",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "BSD-3-Clause",
+     "GPL-3.0-only",
+     "GPL-3.0-or-later",
+     "LGPL-2.1-only",
+     "LGPL-2.1-or-later",
+     "LGPL-3.0-only",
+     "LGPL-3.0-or-later"
+    ],
+    "cpes": [
+     "cpe:2.3:a:gpgv:gpgv:2.2.4-1ubuntu1.6:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/gpgv@2.2.4-1ubuntu1.6?arch=amd64&upstream=gnupg2&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "gnupg2"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2022-3821",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-3821",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Medium",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-3821"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2022-3821",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2022-3821",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://github.com/systemd/systemd/issues/23928",
+      "https://github.com/systemd/systemd/commit/9102c625a673a3246d7e73d8737f3494446bad4e",
+      "https://github.com/systemd/systemd/pull/23933",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2139327",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RVBQC2VLSDVQAPJTEMTREXDL4HYLXG2P/"
+     ],
+     "description": "An off-by-one Error issue was discovered in Systemd in format_timespan() function of time-util.c. An attacker could supply specific values for time and accuracy that leads to buffer overrun in format_timespan(), leading to a Denial of Service.",
+     "cvss": [
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "systemd",
+       "version": "237-3ubuntu10.56"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2022-3821"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libsystemd0",
+    "version": "237-3ubuntu10.56",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "CC0-1.0",
+     "GPL-2.0-only",
+     "GPL-2.0-or-later",
+     "LGPL-2.1-only",
+     "LGPL-2.1-or-later"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libsystemd0:libsystemd0:237-3ubuntu10.56:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libsystemd0@237-3ubuntu10.56?arch=amd64&upstream=systemd&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "systemd"
+     }
+    ]
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "CVE-2022-3821",
+    "dataSource": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-3821",
+    "namespace": "ubuntu:distro:ubuntu:18.04",
+    "severity": "Medium",
+    "urls": [
+     "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2022-3821"
+    ],
+    "cvss": [],
+    "fix": {
+     "versions": [],
+     "state": "not-fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2022-3821",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2022-3821",
+     "namespace": "nvd:cpe",
+     "severity": "Medium",
+     "urls": [
+      "https://github.com/systemd/systemd/issues/23928",
+      "https://github.com/systemd/systemd/commit/9102c625a673a3246d7e73d8737f3494446bad4e",
+      "https://github.com/systemd/systemd/pull/23933",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2139327",
+      "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RVBQC2VLSDVQAPJTEMTREXDL4HYLXG2P/"
+     ],
+     "description": "An off-by-one Error issue was discovered in Systemd in format_timespan() function of time-util.c. An attacker could supply specific values for time and accuracy that leads to buffer overrun in format_timespan(), leading to a Denial of Service.",
+     "cvss": [
+      {
+       "version": "3.1",
+       "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 5.5,
+        "exploitabilityScore": 1.8,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-indirect-match",
+     "matcher": "dpkg-matcher",
+     "searchedBy": {
+      "distro": {
+       "type": "ubuntu",
+       "version": "18.04"
+      },
+      "namespace": "ubuntu:distro:ubuntu:18.04",
+      "package": {
+       "name": "systemd",
+       "version": "237-3ubuntu10.56"
+      }
+     },
+     "found": {
+      "versionConstraint": "none (deb)",
+      "vulnerabilityID": "CVE-2022-3821"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "libudev1",
+    "version": "237-3ubuntu10.56",
+    "type": "deb",
+    "locations": [],
+    "language": "",
+    "licenses": [
+     "CC0-1.0",
+     "GPL-2.0-only",
+     "GPL-2.0-or-later",
+     "LGPL-2.1-only",
+     "LGPL-2.1-or-later"
+    ],
+    "cpes": [
+     "cpe:2.3:a:libudev1:libudev1:237-3ubuntu10.56:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:deb/ubuntu/libudev1@237-3ubuntu10.56?arch=amd64&upstream=systemd&distro=ubuntu-18.04",
+    "upstreams": [
+     {
+      "name": "systemd"
+     }
+    ]
+   }
+  }
+ ],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "",
+   "imageID": "",
+   "manifestDigest": "",
+   "mediaType": "",
+   "tags": [],
+   "imageSize": 0,
+   "layers": null,
+   "manifest": null,
+   "config": null,
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "name": "ubuntu",
+  "version": "18.04",
+  "idLike": [
+   "ubuntu"
+  ]
+ },
+ "descriptor": {
+  "name": "grype",
+  "version": "0.54.0",
+  "configuration": {
+   "configPath": "",
+   "verbosity": 0,
+   "output": "json",
+   "file": "vuln.json",
+   "distro": "",
+   "add-cpes-if-none": false,
+   "output-template-file": "",
+   "quiet": false,
+   "check-for-app-update": true,
+   "only-fixed": false,
+   "only-notfixed": false,
+   "platform": "",
+   "search": {
+    "scope": "Squashed",
+    "unindexed-archives": false,
+    "indexed-archives": true
+   },
+   "ignore": null,
+   "exclude": [],
+   "db": {
+    "cache-dir": "/.cache/grype/db",
+    "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
+    "ca-cert": "",
+    "auto-update": true,
+    "validate-by-hash-on-start": false,
+    "validate-age": true,
+    "max-allowed-built-age": 432000000000000
+   },
+   "externalSources": {
+    "enable": false,
+    "maven": {
+     "searchUpstreamBySha1": true,
+     "baseUrl": "https://search.maven.org/solrsearch/select"
+    }
+   },
+   "match": {
+    "java": {
+     "using-cpes": true
+    },
+    "dotnet": {
+     "using-cpes": true
+    },
+    "golang": {
+     "using-cpes": true
+    },
+    "javascript": {
+     "using-cpes": true
+    },
+    "python": {
+     "using-cpes": true
+    },
+    "ruby": {
+     "using-cpes": true
+    },
+    "stock": {
+     "using-cpes": true
+    }
+   },
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "fail-on-severity": "",
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "log": {
+    "structured": false,
+    "level": "warn",
+    "file": ""
+   },
+   "attestation": {
+    "public-key": "",
+    "skip-verification": false
+   },
+   "show-suppressed": false,
+   "by-cve": false
+  },
+  "db": {
+   "built": "2022-12-22T08:18:47Z",
+   "schemaVersion": 5,
+   "location": "/.cache/grype/db/5",
+   "checksum": "sha256:b5be4d11f34cbafe43784b32052a248b011ac94342322fae097b7f2738de9146",
+   "error": null
+  }
+ }
+}
+}
