@@ -5,8 +5,9 @@ import future.keywords
 # TODO: 
 ## * Mention if vulnerability has a fix available
 
-allow_list := ["CVE-2015-5237"]
-vuln_level := ["High", "Medium"]
+allow_list := ["CVE-2019-8457"]
+# vuln_level := ["High", "Medium", "Low"]
+vuln_level = ["Critical"]
 
 deny[msg] {
   vuln_level[_] = level
