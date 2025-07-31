@@ -1,0 +1,5 @@
+opa run --server policies/
+cd data/
+curl localhost:8181/v1/data/license -d @sbom-input.json -H 'Content-Type: application/json' | jq .result.deny
+curl localhost:8181/v1/data/license -d @sbom-input.json -H 'Content-Type: application/json' | jq .result.warn
+curl localhost:8181/v1/data/vuln -d @v2-data-input.json -H 'Content-Type: application/json' | jq .result.deny

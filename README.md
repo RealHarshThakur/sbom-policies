@@ -12,13 +12,13 @@ This repository contains a set of policies that can be used to make decisions ba
 - Clone this repository
 - Run server: `opa run --server policies/` 
 - Open a different tab and run `cd data/`
-- To check for prohibited licenses: `curl localhost:8181/v1/data/license -d @v1-data-input.json -H 'Content-Type: application/json' | jq .result.deny`
+- To check for prohibited licenses: `curl localhost:8181/v1/data/license -d @sbom-input.json -H 'Content-Type: application/json' | jq .result.deny`
 
 
 ![Example of license deny](./assets/license-deny.png)
 
 
-- To check for licenses that need to be reviewed: `curl localhost:8181/v1/data/license -d @v1-data-input.json -H 'Content-Type: application/json' | jq .result.warn`
+- To check for licenses that need to be reviewed: `curl localhost:8181/v1/data/license -d @sbom-input.json -H 'Content-Type: application/json' | jq .result.warn`
 ![Example of license warn](./assets/license-warn.png)
 
 
